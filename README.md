@@ -1,66 +1,81 @@
 # 🐉 Game of Thrones AI Theme Analyzer  
 
-> **Built by TM Derrick ⚔️**  
-> An AI/NLP-powered dashboard that analyzes Game of Thrones episodes and predicts their dominant themes using **Transformers**, **Hugging Face**, and **Gradio**.
+> **Developed by TM Derrick ⚔️**  
+> An AI/NLP-powered dashboard that analyzes Game of Thrones episodes and predicts dominant narrative themes using **Transformers**, **Hugging Face**, and **Gradio**.
 
 ---
 
 ## 🚀 Overview  
 
-This project processes *Game of Thrones* subtitle transcripts, cleans and structures the data,  
-classifies each episode by its dominant theme (e.g. Family, Loyalty, Power, Politics),  
-and presents the results through an interactive **Gradio** dashboard.  
+This project implements an end-to-end Natural Language Processing (NLP) pipeline designed to analyze dialogues extracted from *Game of Thrones* subtitle data.  
+By leveraging modern Transformer-based architectures, the system classifies each episode according to thematic dimensions such as **Family**, **Loyalty**, **Politics**, **Power**, and **Death**.  
 
-It’s Phase 1 of a 3-part project:
-1. 🧠 Theme Classification (**current phase**)  
-2. 🕸️ Character Network Analysis (using NER + graph visualization)  
-3. 💬 Character Chatbot Module (for interactive dialogue simulation)  
+The application provides an **interactive Gradio dashboard** that allows users to explore the thematic evolution of the series season by season, supported by dynamic data visualizations and textual summaries.
+
+This initiative forms **Phase 1** of a three-phase analytical suite:
+1. 🧠 **Theme Classification** *(current phase)*  
+2. 🕸️ **Character Network Analysis** *(relationship mapping using NER and graph theory)*  
+3. 💬 **Dialogue Intelligence Module** *(interactive AI-based character simulation)*  
 
 ---
 
-## 🧩 Folder Structure  
+## 🧩 Project Structure  
 
 GameOfThrones_AI_Analayser/
 │
 ├── data/
-│ ├── raw/ # Subtitle JSONs (from Kaggle)
-│ ├── interim/ # Cleaned .txt episodes
-│ └── processed/ # Final CSVs (theme predictions etc.)
+│ ├── raw/ # Original subtitle JSON files
+│ ├── interim/ # Intermediate text files (cleaned dialogues)
+│ └── processed/ # Final structured CSVs and predictions
 │
 ├── phase1_theme_classifier/
-│ ├── scripts/ # Cleaning + NLP scripts
-│ ├── app/ # Gradio app UI
-│ └── visuals/ # Dashboards/plots
+│ ├── scripts/ # Data cleaning, frame construction, and theme modeling
+│ ├── app/ # Gradio-based visualization and dashboard logic
+│ └── visuals/ # Graphs and plots generated during EDA
 │
 ├── .gitignore
-├── titles.json
-└── Game_of_Thrones_Script.csv
+├── Game_of_Thrones_Script.csv
+└── titles.json
 
+## 📊 Key Features
+
+🧹 Automated Subtitle Cleaning: Converts raw .json subtitles into structured episode-level text.
+
+🧠 Theme Detection: Utilizes Transformer-based NLP models to infer dominant narrative themes per episode.
+
+📈 Interactive Visualization: Built using Gradio for seamless theme exploration and comparison across seasons.
+
+🧩 Modular Architecture: Designed for scalability, enabling future integration of character-level NLP analysis.
+
+🗂️ Full Data Pipeline: Processes data from raw to processed format automatically.
 
 ---
 
-## ⚙️ Installation  
+## 🧰 Tech Stack  
 
-```bash
-git clone https://github.com/derrickrajkumar10-tech/GameOfThrones_AI_Analayser.git
-cd GameOfThrones_AI_Analayser
+| Category | Technologies |
+|-----------|---------------|
+| **Language** | Python 3.13 |
+| **Libraries** | Transformers · Hugging Face Hub · Pandas · NumPy · TQDM |
+| **NLP Tools** | NLTK · SpaCy *(for upcoming Character Network)* |
+| **Visualization** | Gradio · Plotly |
+| **Version Control** | Git · GitHub |
+| **Environment** | Virtualenv · VS Code |
+| **Dataset Source** | Custom Game of Thrones Subtitle JSONs |
 
-# create virtual env
-python -m venv .venv
-.\.venv\Scripts\activate   # (Windows)
-
-# install dependencies
-pip install -r requirements.txt
-'''
 ---
-##Features
 
-🎬 Loads and cleans real GoT subtitle data
+## 🧭 Roadmap
+Phase 2 — Character Network Analyzer
 
-🤖 Theme classification via Hugging Face Transformers
+Extract entity relationships using SpaCy Named Entity Recognition (NER).
 
-📈 Interactive dashboard built with Gradio
+Construct a graph-based visualization using NetworkX to reveal alliances, rivalries, and power structures.
 
-🗂 Full data pipeline (raw → processed)
+Phase 3 — Character Chatbot
 
-🌗 Ready for Phase 2: Character Network Analysis
+Develop an AI-driven conversational interface trained on GoT dialogues.
+
+Deploy as a context-aware chatbot that responds in the tone of specific characters.
+
+
