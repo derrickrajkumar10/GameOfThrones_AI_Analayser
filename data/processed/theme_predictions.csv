@@ -1,0 +1,68 @@
+season,episode,title,theme,confidence,file
+1,1,Winter Is Coming,Family,0.132,Game_Of_Thrones_S01E01_Winter_Is_Coming.txt
+1,2,The Kingsroad,Loyalty,0.118,Game_Of_Thrones_S01E02_The_Kingsroad.txt
+1,3,Lord Snow,Politics,0.141,Game_Of_Thrones_S01E03_Lord_Snow.txt
+1,4,"Cripples, Bastards, And Broken Things",Power,0.188,"Game_Of_Thrones_S01E04_Cripples,_Bastards,_And_Broken_Things.txt"
+1,5,The Wolf And The Lion,Family,0.359,Game_Of_Thrones_S01E05_The_Wolf_And_The_Lion.txt
+1,6,A Golden Crown,Death,0.128,Game_Of_Thrones_S01E06_A_Golden_Crown.txt
+1,7,You Win Or You Die,Love,0.247,Game_Of_Thrones_S01E07_You_Win_Or_You_Die.txt
+1,8,The Pointy End,Loyalty,0.134,Game_Of_Thrones_S01E08_The_Pointy_End.txt
+1,9,Baelor,Family,0.186,Game_Of_Thrones_S01E09_Baelor.txt
+1,10,Fire And Blood,Loyalty,0.161,Game_Of_Thrones_S01E10_Fire_And_Blood.txt
+2,1,The North Remembers,War,0.15,Game_Of_Thrones_S02E01_The_North_Remembers.txt
+2,2,The Night Lands,Politics,0.139,Game_Of_Thrones_S02E02_The_Night_Lands.txt
+2,3,What Is Dead May Never Die,Power,0.136,Game_Of_Thrones_S02E03_What_Is_Dead_May_Never_Die.txt
+2,4,Garden Of Bones,Power,0.168,Game_Of_Thrones_S02E04_Garden_Of_Bones.txt
+2,5,The Ghost Of Harrenhal,Loyalty,0.177,Game_Of_Thrones_S02E05_The_Ghost_Of_Harrenhal.txt
+2,6,The Old Gods And The New,War,0.203,Game_Of_Thrones_S02E06_The_Old_Gods_And_The_New.txt
+2,7,A Man Without Honor,War,0.183,Game_Of_Thrones_S02E07_A_Man_Without_Honor.txt
+2,8,The Prince Of Winterfell,Betrayal,0.21,Game_Of_Thrones_S02E08_The_Prince_Of_Winterfell.txt
+2,9,Blackwater,Power,0.159,Game_Of_Thrones_S02E09_Blackwater.txt
+2,10,Valar Morghulis,Power,0.154,Game_Of_Thrones_S02E10_Valar_Morghulis.txt
+3,1,Valar Dohaeris,Politics,0.139,Game_Of_Thrones_S03E01_Valar_Dohaeris.txt
+3,2,"Dark Wings, Dark Words",Power,0.151,"Game_Of_Thrones_S03E02_Dark_Wings,_Dark_Words.txt"
+3,3,Walk Of Punishment,War,0.141,Game_Of_Thrones_S03E03_Walk_Of_Punishment.txt
+3,4,And Now His Watch Is Ended,Power,0.138,Game_Of_Thrones_S03E04_And_Now_His_Watch_Is_Ended.txt
+3,5,Kissed By Fire,Loyalty,0.129,Game_Of_Thrones_S03E05_Kissed_By_Fire.txt
+3,6,The Climb,Loyalty,0.244,Game_Of_Thrones_S03E06_The_Climb.txt
+3,7,The Bear And The Maiden Fair,War,0.163,Game_Of_Thrones_S03E07_The_Bear_And_The_Maiden_Fair.txt
+3,8,Second Sons,Power,0.177,Game_Of_Thrones_S03E08_Second_Sons.txt
+3,9,The Rains Of Castamere,Loyalty,0.187,Game_Of_Thrones_S03E09_The_Rains_Of_Castamere.txt
+3,10,Mhysa,War,0.239,Game_Of_Thrones_S03E10_Mhysa.txt
+4,1,Two Swords,Family,0.217,Game_Of_Thrones_S04E01_Two_Swords.txt
+4,2,The Lion And The Rose,Family,0.181,Game_Of_Thrones_S04E02_The_Lion_And_The_Rose.txt
+4,3,Breaker Of Chains,Family,0.141,Game_Of_Thrones_S04E03_Breaker_Of_Chains.txt
+4,4,Oathkeeper,Politics,0.127,Game_Of_Thrones_S04E04_Oathkeeper.txt
+4,5,First Of His Name,Power,0.177,Game_Of_Thrones_S04E05_First_Of_His_Name.txt
+4,6,The Laws Of Gods And Men,Loyalty,0.267,Game_Of_Thrones_S04E06_The_Laws_Of_Gods_And_Men.txt
+4,7,Mockingbird,Politics,0.145,Game_Of_Thrones_S04E07_Mockingbird.txt
+4,8,The Mountain And The Viper,Family,0.211,Game_Of_Thrones_S04E08_The_Mountain_And_The_Viper.txt
+4,9,The Watchers On The Wall,Love,0.19,Game_Of_Thrones_S04E09_The_Watchers_On_The_Wall.txt
+4,10,The Children,Loyalty,0.162,Game_Of_Thrones_S04E10_The_Children.txt
+5,1,The Wars To Come,Politics,0.138,Game_Of_Thrones_S05E01_The_Wars_To_Come.txt
+5,2,The House Of Black And White,Family,0.286,Game_Of_Thrones_S05E02_The_House_Of_Black_And_White.txt
+5,3,High Sparrow,Family,0.169,Game_Of_Thrones_S05E03_High_Sparrow.txt
+5,4,Sons Of The Harpy,Power,0.123,Game_Of_Thrones_S05E04_Sons_Of_The_Harpy.txt
+5,5,Kill The Boy,Power,0.151,Game_Of_Thrones_S05E05_Kill_The_Boy.txt
+5,6,"Unbowed, Unbent, Unbroken",Power,0.166,"Game_Of_Thrones_S05E06_Unbowed,_Unbent,_Unbroken.txt"
+5,7,The Gift,War,0.157,Game_Of_Thrones_S05E07_The_Gift.txt
+5,8,Hardhome,Revenge,0.227,Game_Of_Thrones_S05E08_Hardhome.txt
+5,9,The Dance Of Dragons,Politics,0.196,Game_Of_Thrones_S05E09_The_Dance_Of_Dragons.txt
+5,10,Mother's Mercy,Death,0.154,Game_Of_Thrones_S05E10_Mother's_Mercy.txt
+6,1,The Red Woman,Loyalty,0.186,Game_Of_Thrones_S06E01_The_Red_Woman.txt
+6,2,Home,Family,0.147,Game_Of_Thrones_S06E02_Home.txt
+6,3,Oathbreaker,Family,0.146,Game_Of_Thrones_S06E03_Oathbreaker.txt
+6,4,Book of the Stranger,Sacrifice,0.182,Game_Of_Thrones_S06E04_Book_of_the_Stranger.txt
+6,5,The Door,Love,0.157,Game_Of_Thrones_S06E05_The_Door.txt
+6,6,Blood of My Blood,Family,0.103,Game_Of_Thrones_S06E06_Blood_of_My_Blood.txt
+6,7,The Broken Man,Betrayal,0.17,Game_Of_Thrones_S06E07_The_Broken_Man.txt
+6,8,No One,Revenge,0.172,Game_Of_Thrones_S06E08_No_One.txt
+6,9,Battle of the Bastards,Power,0.232,Game_Of_Thrones_S06E09_Battle_of_the_Bastards.txt
+6,10,The Winds of Winter,Power,0.127,Game_Of_Thrones_S06E10_The_Winds_of_Winter.txt
+7,1,Dragonstone,Betrayal,0.291,Game_Of_Thrones_S07E01_Dragonstone.txt
+7,2,Stormborn,Loyalty,0.148,Game_Of_Thrones_S07E02_Stormborn.txt
+7,3,The Queen's Justice,Honor,0.289,Game_Of_Thrones_S07E03_The_Queen's_Justice.txt
+7,4,The Spoils Of War,Family,0.199,Game_Of_Thrones_S07E04_The_Spoils_Of_War.txt
+7,5,Eastwatch,Betrayal,0.219,Game_Of_Thrones_S07E05_Eastwatch.txt
+7,6,Beyond The Wall,Betrayal,0.147,Game_Of_Thrones_S07E06_Beyond_The_Wall.txt
+7,7,The Dragon And The Wolf,War,0.158,Game_Of_Thrones_S07E07_The_Dragon_And_The_Wolf.txt
