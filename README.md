@@ -1,6 +1,6 @@
 # 🐉 Game of Thrones AI Theme Analyzer  
 
-> **Developed by TM Derrick ⚔️**  
+
 > An AI/NLP-powered dashboard that analyzes Game of Thrones episodes and predicts dominant narrative themes using **Transformers**, **Hugging Face**, and **Gradio**.
 
 ---
