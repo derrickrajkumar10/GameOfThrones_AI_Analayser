@@ -1,81 +1,88 @@
-# 🐉 Game of Thrones AI Theme Analyzer  
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=GoT%20AI%20Analyser&fontSize=52&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Transformers%20meet%20Westeros&descAlignY=62&descSize=20"/>
+</div>
 
+<div align="center">
 
-> An AI/NLP-powered dashboard that analyzes Game of Thrones episodes and predicts dominant narrative themes using **Transformers**, **Hugging Face**, and **Gradio**.
+![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=3776AB)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-0D1117?style=for-the-badge&logo=huggingface&logoColor=FFD21F)
+![Gradio](https://img.shields.io/badge/Gradio-0D1117?style=for-the-badge&logo=gradio&logoColor=FF7C00)
+![NLP](https://img.shields.io/badge/NLP-0D1117?style=for-the-badge&logo=spacy&logoColor=09A3D5)
+![License](https://img.shields.io/badge/License-MIT-0D1117?style=for-the-badge)
 
----
+</div>
 
-## 🚀 Overview  
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2"/>
 
-This project implements an end-to-end Natural Language Processing (NLP) pipeline designed to analyze dialogues extracted from *Game of Thrones* subtitle data.  
-By leveraging modern Transformer-based architectures, the system classifies each episode according to thematic dimensions such as **Family**, **Loyalty**, **Politics**, **Power**, and **Death**.  
+## 🐉 About
 
-The application provides an **interactive Gradio dashboard** that allows users to explore the thematic evolution of the series season by season, supported by dynamic data visualizations and textual summaries.
+An AI/NLP-powered dashboard that analyses Game of Thrones episodes and predicts dominant narrative themes using **Transformers**, **Hugging Face**, and **Gradio**.
 
-This initiative forms **Phase 1** of a three-phase analytical suite:
-1. 🧠 **Theme Classification** *(current phase)*  
-2. 🕸️ **Character Network Analysis** *(relationship mapping using NER and graph theory)*  
-3. 💬 **Dialogue Intelligence Module** *(interactive AI-based character simulation)*  
+Point it at an episode. It tells you what it's really about — Family, Loyalty, Politics, Power, or Death.
 
----
+Phase 1 of a 3-phase analytical suite:
 
-## 🧩 Project Structure  
+| Phase | Module | Status |
+|-------|--------|--------|
+| 1 | 🧠 Theme Classification | ✅ Complete |
+| 2 | 🕸️ Character Network Analysis | 🔧 In Progress |
+| 3 | 💬 Dialogue Intelligence (Character Chatbot) | 📋 Planned |
 
-GameOfThrones_AI_Analayser/
-│
-├── data/
-│ ├── raw/ # Original subtitle JSON files
-│ ├── interim/ # Intermediate text files (cleaned dialogues)
-│ └── processed/ # Final structured CSVs and predictions
-│
-├── phase1_theme_classifier/
-│ ├── scripts/ # Data cleaning, frame construction, and theme modeling
-│ ├── app/ # Gradio-based visualization and dashboard logic
-│ └── visuals/ # Graphs and plots generated during EDA
-│
-├── .gitignore
-├── Game_of_Thrones_Script.csv
-└── titles.json
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2"/>
 
-## 📊 Key Features
+## ✨ Features
 
-🧹 Automated Subtitle Cleaning: Converts raw .json subtitles into structured episode-level text.
+- 🧹 **Automated subtitle cleaning** — raw `.json` subtitles → structured episode-level text
+- 🧠 **Theme detection** — Transformer-based NLP classifies dominant themes per episode
+- 📈 **Interactive Gradio dashboard** — explore and compare themes across all seasons
+- 🧩 **Modular architecture** — built for Phase 2 and Phase 3 expansion
+- 🗂️ **Full data pipeline** — raw → processed automatically
 
-🧠 Theme Detection: Utilizes Transformer-based NLP models to infer dominant narrative themes per episode.
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2"/>
 
-📈 Interactive Visualization: Built using Gradio for seamless theme exploration and comparison across seasons.
-
-🧩 Modular Architecture: Designed for scalability, enabling future integration of character-level NLP analysis.
-
-🗂️ Full Data Pipeline: Processes data from raw to processed format automatically.
-
----
-
-## 🧰 Tech Stack  
+## 🛠 Tech Stack
 
 | Category | Technologies |
-|-----------|---------------|
+|----------|-------------|
 | **Language** | Python 3.13 |
-| **Libraries** | Transformers · Hugging Face Hub · Pandas · NumPy · TQDM |
-| **NLP Tools** | NLTK · SpaCy *(for upcoming Character Network)* |
-| **Visualization** | Gradio · Plotly |
-| **Version Control** | Git · GitHub |
-| **Environment** | Virtualenv · VS Code |
-| **Dataset Source** | Custom Game of Thrones Subtitle JSONs |
+| **NLP** | Transformers · Hugging Face Hub · NLTK · SpaCy |
+| **Data** | Pandas · NumPy · TQDM |
+| **Dashboard** | Gradio · Plotly |
+| **Dataset** | Custom GoT subtitle JSONs |
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2"/>
 
-## 🧭 Roadmap
-Phase 2 — Character Network Analyzer
+## 🚀 Getting Started
 
-Extract entity relationships using SpaCy Named Entity Recognition (NER).
+```bash
+git clone https://github.com/derrickrajkumar10/GameOfThrones_AI_Analayser.git
+cd GameOfThrones_AI_Analayser
 
-Construct a graph-based visualization using NetworkX to reveal alliances, rivalries, and power structures.
+pip install -r requirements.txt
 
-Phase 3 — Character Chatbot
+# Launch the Gradio dashboard
+python phase1_theme_classifier/app/app.py
+```
 
-Develop an AI-driven conversational interface trained on GoT dialogues.
+Open `http://localhost:7860` in your browser.
 
-Deploy as a context-aware chatbot that responds in the tone of specific characters.
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2"/>
 
+## 📁 Project Structure
 
+```
+GameOfThrones_AI_Analayser/
+├── data/
+│   ├── raw/          # Original subtitle JSON files
+│   ├── interim/      # Cleaned episode-level text
+│   └── processed/    # Final CSVs and model predictions
+├── phase1_theme_classifier/
+│   ├── scripts/      # Data cleaning, frame construction, theme modelling
+│   ├── app/          # Gradio dashboard
+│   └── visuals/      # EDA graphs and plots
+└── Game_of_Thrones_Script.csv
+```
+
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
+</div>
